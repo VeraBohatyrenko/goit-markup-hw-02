@@ -81,6 +81,7 @@ ul {
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: #FFFFFF;
+  text-transform: uppercase;
 }
 
 .button {
@@ -90,7 +91,7 @@ ul {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
   color: #ffffff;
-  font-family: inherit;
+  font-family: 'Roboto', sans-serif;
 }
  
 
@@ -105,7 +106,8 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color)
+  color: var(--primary-text-color);
+  text-transform: uppercase;
 }
 
 .features-text {
@@ -213,7 +215,9 @@ list-style: none;
   color: var(--primary-text-color);
   border: 1px solid #F5F4FA;
   border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
 }
+
 
 .btn-filter:hover,
 .btn-filter:focus {
